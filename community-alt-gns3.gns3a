@@ -1,0 +1,133 @@
+{
+    "name": "ALT Linux (BaseALT)",
+    "category": "guest",
+    "description": "Официальные дистрибутивы ALT Linux от Базальт СПО",
+    "vendor_name": "Базальт СПО",
+    "vendor_url": "https://www.basealt.ru",
+    "vendor_logo_url": "https://www.basealt.ru/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/Group%20357.png",
+    "documentation_url": "https://www.basealt.ru/documentation",
+    "product_name": "ALT Linux",
+    "product_url": "https://www.basealt.ru/products",
+    "registry_version": 6,
+    "status": "stable",
+    "maintainer": "Nikita Bystrov",
+    "maintainer_email": "bystrovno@basealt.ru",
+    "usage": "По умолчанию логин: root, пароль: (устанавливается при инсталляции)",
+    "port_name_format": "eth{0}",
+    "first_port_name": "eth0",
+    "symbol": ":/symbols/linux.svg",
+    "symbol_url": "https://www.basealt.ru/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/Group%20357.png",
+
+    "qemu": {
+        "adapter_type": "virtio-net-pci",
+        "adapters": 2,
+        "ram": 2048,
+        "cpus": 2,
+        "arch": "x86_64",
+        "console_type": "vnc",
+        "boot_priority": "cd",
+        "kvm": "require",
+        "options": "-machine type=pc,accel=kvm -vga std"
+    },
+
+    "images": [
+        {
+            "filename": "alt-workstation-11.0-x86_64.iso",
+            "version": "11.0 Workstation",
+            "md5sum": "088890e3f4767129a474e96094356ca4",
+            "filesize": 6530684928,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso"
+        },
+        {
+            "filename": "alt-workstation-k-11.0-x86_64.iso",
+            "version": "11.0 Workstation K",
+            "md5sum": "b4e84c8292c074a644b9a3c15ede56e7",
+            "filesize": 8276086784,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.0-install-x86_64.iso"
+        },
+        {
+            "filename": "alt-education-11.0-x86_64.iso",
+            "version": "11.0 Education",
+            "md5sum": "da4a4859da725b71d56cc05db73f9f4e",
+            "filesize": 9687877632,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso"
+        },
+        {
+            "filename": "alt-server-11-x86_64.iso",
+            "version": "11 Server",
+            "md5sum": "35af6c21fd3f73005647f676664de76a",
+            "filesize": 4499472384,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/server/x86_64/alt-server-11.0-x86_64.iso"
+        },
+        {
+            "filename": "alt-server-virt-10.4-x86_64.iso",
+            "version": "10.4 Server Virtualization",
+            "md5sum": "5812d19ed128fe7d6bf5e751c4db3cfe",
+            "filesize": 3065128960,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server-v/x86_64/alt-server-v-10.4-x86_64.iso"
+        },
+        {
+            "filename": "alt-simple-10.4-x86_64.iso",
+            "version": "10.4 Simple Linux",
+            "md5sum": "6ce200b42be287009a8eb38cb3198123",
+            "filesize": 4087590912,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/simply/x86_64/slinux-10.4-x86_64.iso"
+        },
+        {
+            "filename": "alt-platform-builder-10.1.0-x86_64.iso",
+            "version": "10.1 Platform",
+            "md5sum": "80e2a7a091ffcb91d7b9702438e5535c",
+            "filesize": 1534134272,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/alt-platform/x86_64/alt-platform-builder-10.1.0-x86_64.iso"
+        }
+    ],
+
+    "versions": [
+        {
+            "name": "Workstation 11.0",
+            "images": {
+                "cdrom_image": "alt-workstation-11.0-x86_64.iso"
+            }
+        },
+        {
+            "name": "Workstation K 11.0",
+            "images": {
+                "cdrom_image": "alt-workstation-k-11.0-x86_64.iso"
+            }
+        },
+        {
+            "name": "Education 11.0",
+            "images": {
+                "cdrom_image": "alt-education-11.0-x86_64.iso"
+            }
+        },
+        {
+            "name": "Server 11",
+            "images": {
+                "cdrom_image": "alt-server-11-x86_64.iso"
+            }
+        },
+        {
+            "name": "Server Virtualization 10.4",
+            "images": {
+                "cdrom_image": "alt-server-virt-10.4-x86_64.iso"
+            }
+        },
+        {
+            "name": "Simple Linux 10.4",
+            "images": {
+                "cdrom_image": "alt-simple-10.4-x86_64.iso"
+            }
+        },
+        {
+            "name": "Platform 10.1",
+            "images": {
+                "cdrom_image": "alt-platform-builder-10.1.0-x86_64.iso"
+            }
+        }
+    ],
+
+    "template_type": "qemu",
+    "node_type": "qemu",
+    "compute_id": "local"
+}
