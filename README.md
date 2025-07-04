@@ -2,6 +2,7 @@
 
 [![GNS3 Compatible](https://img.shields.io/badge/GNS3-Compatible-success)](https://gns3.com)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue)](LICENSE)
+[![Release: v1.0](https://img.shields.io/github/v/release/nik5612/community-alt-gns3)](https://github.com/nik5612/community-alt-gns3/releases/tag/v1.0)
 
 ![ALT Linux Logo](https://www.basealt.ru/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/Group%20357.png)
 
