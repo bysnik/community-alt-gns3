@@ -10,7 +10,7 @@
 
 ## Features
 
-- Ready-to-import GNS3 appliance (`basealt.gns3a`)
+- Ready-to-import GNS3 appliance
 - Pre-configured QEMU settings for optimal performance
 - All current ALT Linux editions included
 - Verified download links from official mirrors
