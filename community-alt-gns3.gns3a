@@ -12,23 +12,23 @@
     "status": "stable",
     "maintainer": "Nikita Bystrov",
     "maintainer_email": "bystrovno@basealt.ru",
-    "usage": "По умолчанию логин: root, пароль: (устанавливается при инсталляции)",
+    "usage": "Нобходимо настроит жёсткие диски!\nПо умолчанию логин: root, пароль: (устанавливается при инсталляции)",
     "port_name_format": "eth{0}",
     "first_port_name": "eth0",
     "symbol": ":/symbols/linux.svg",
     "symbol_url": "https://www.basealt.ru/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/Group%20357.png",
 
-    "qemu": {
-        "adapter_type": "virtio-net-pci",
-        "adapters": 2,
-        "ram": 2048,
-        "cpus": 2,
-        "arch": "x86_64",
-        "console_type": "vnc",
-        "boot_priority": "cd",
-        "kvm": "require",
-        "options": "-machine type=pc,accel=kvm -vga std"
-    },
+"qemu": {
+    "adapter_type": "virtio-net-pci",
+    "adapters": 1,
+    "ram": 2048,
+    "cpus": 2,
+    "arch": "x86_64",
+    "console_type": "vnc",
+    "boot_priority": "dc",
+    "kvm": "require",
+    "options": "-machine type=pc,accel=kvm -vga std"
+},
 
     "images": [
         {
@@ -39,11 +39,11 @@
             "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso"
         },
         {
-            "filename": "alt-workstation-k-11.0-x86_64.iso",
-            "version": "11.0 Workstation K",
-            "md5sum": "b4e84c8292c074a644b9a3c15ede56e7",
-            "filesize": 8276086784,
-            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.0-install-x86_64.iso"
+            "filename": "alt-workstation-k-11.1-x86_64.iso",
+            "version": "11.1 Workstation K",
+            "md5sum": "d5173b2e46c418d78a43f1201da26433",
+            "filesize": 8913971200,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.1-install-x86_64.iso"
         },
         {
             "filename": "alt-education-11.0-x86_64.iso",
@@ -60,18 +60,18 @@
             "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/server/x86_64/alt-server-11.0-x86_64.iso"
         },
         {
-            "filename": "alt-server-virt-10.4-x86_64.iso",
-            "version": "10.4 Server Virtualization",
-            "md5sum": "5812d19ed128fe7d6bf5e751c4db3cfe",
-            "filesize": 3065128960,
-            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server-v/x86_64/alt-server-v-10.4-x86_64.iso"
+            "filename": "alt-virtualization-pve-11.0-x86_64.iso",
+            "version": "11.0 Server Virtualization PVE",
+            "md5sum": "8fab2c87bb59ba310de90d5cfeb171a6",
+            "filesize": 2275885056,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/alt-virtualization-pve-11.0-x86_64.iso"
         },
         {
-            "filename": "alt-simple-10.4-x86_64.iso",
-            "version": "10.4 Simple Linux",
-            "md5sum": "6ce200b42be287009a8eb38cb3198123",
-            "filesize": 4087590912,
-            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/simply/x86_64/slinux-10.4-x86_64.iso"
+            "filename": "slinux-11.0-x86_64.iso",
+            "version": "11.0 Simple Linux",
+            "md5sum": "4d0e16aada09155ca191a17cdae6ad73",
+            "filesize": 3269713920,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/x86_64/slinux-11.0-x86_64.iso"
         },
         {
             "filename": "alt-platform-builder-10.1.0-x86_64.iso",
@@ -90,9 +90,9 @@
             }
         },
         {
-            "name": "Workstation K 11.0",
+            "name": "Workstation K 11.1",
             "images": {
-                "cdrom_image": "alt-workstation-k-11.0-x86_64.iso"
+                "cdrom_image": "alt-workstation-k-11.1-x86_64.iso"
             }
         },
         {
@@ -108,15 +108,15 @@
             }
         },
         {
-            "name": "Server Virtualization 10.4",
+            "name": "Server Virtualization PVE 11.0",
             "images": {
-                "cdrom_image": "alt-server-virt-10.4-x86_64.iso"
+                "cdrom_image": "alt-virtualization-pve-11.0-x86_64.iso"
             }
         },
         {
-            "name": "Simple Linux 10.4",
+            "name": "Simple Linux 11.0",
             "images": {
-                "cdrom_image": "alt-simple-10.4-x86_64.iso"
+                "cdrom_image": "slinux-11.0-x86_64.iso"
             }
         },
         {
