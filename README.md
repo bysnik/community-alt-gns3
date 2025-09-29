@@ -24,7 +24,7 @@
 | Education             | 11.0    | 9.0 GB   |
 | Server                | 11.0    | 4.2 GB   |
 | Server Virtualization PVE | 11.0    | 2.1 GB   |
-| Simple Linux          | 11.0    | 3.0 GB   |
+| Simply Linux          | 11.0    | 3.0 GB   |
 | Platform              | 10.1    | 1.4 GB   |
 
 
