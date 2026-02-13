@@ -19,12 +19,12 @@
 
 | Edition               | Version | ISO Size |
 |-----------------------|---------|----------|
-| Workstation (GNOME)   | 11.0    | 6.1 GB   |
-| Workstation K (KDE)   | 11.1    | 8.3 GB   |
+| Workstation (GNOME)   | 11.1    | 6.9 GB   |
+| Workstation K (KDE)   | 11.2    | 8.8 GB   |
 | Education             | 11.0    | 9.0 GB   |
 | Server                | 11.0    | 4.2 GB   |
 | Server Virtualization PVE | 11.0    | 2.1 GB   |
-| Simply Linux          | 11.0    | 3.0 GB   |
+| Simply Linux          | 11.1    | 3.7 GB   |
 | Platform              | 10.1    | 1.4 GB   |
 
 

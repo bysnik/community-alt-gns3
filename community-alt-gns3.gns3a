@@ -32,18 +32,18 @@
 
     "images": [
         {
-            "filename": "alt-workstation-11.0-x86_64.iso",
-            "version": "11.0 Workstation",
-            "md5sum": "088890e3f4767129a474e96094356ca4",
-            "filesize": 6530684928,
-            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso"
+            "filename": "alt-workstation-11.1-x86_64.iso",
+            "version": "11.1 Workstation",
+            "md5sum": "3cbeea531e4d65d7d971e1a961361f2b",
+            "filesize": 6859448320,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.1-x86_64.iso"
         },
         {
-            "filename": "alt-workstation-k-11.1-x86_64.iso",
-            "version": "11.1 Workstation K",
-            "md5sum": "d5173b2e46c418d78a43f1201da26433",
-            "filesize": 8913971200,
-            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.1-install-x86_64.iso"
+            "filename": "alt-workstation-k-11.2-x86_64.iso",
+            "version": "11.2 Workstation K",
+            "md5sum": "36cda5b7b174d3c04d7d3b8be9d30249",
+            "filesize": 8845594624,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.2-install-x86_64.iso"
         },
         {
             "filename": "alt-education-11.0-x86_64.iso",
@@ -67,11 +67,11 @@
             "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/alt-virtualization-pve-11.0-x86_64.iso"
         },
         {
-            "filename": "slinux-11.0-x86_64.iso",
-            "version": "11.0 Simple Linux",
-            "md5sum": "4d0e16aada09155ca191a17cdae6ad73",
-            "filesize": 3269713920,
-            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/x86_64/slinux-11.0-x86_64.iso"
+            "filename": "slinux-11.1-x86_64.iso",
+            "version": "11.1 Simple Linux",
+            "md5sum": "040707282f99423dbe31d5bc08c63bdf",
+            "filesize": 3661252608,
+            "download_url": "https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/x86_64/slinux-11.1-x86_64.iso"
         },
         {
             "filename": "alt-platform-builder-10.1.0-x86_64.iso",
@@ -84,15 +84,15 @@
 
     "versions": [
         {
-            "name": "Workstation 11.0",
+            "name": "Workstation 11.1",
             "images": {
-                "cdrom_image": "alt-workstation-11.0-x86_64.iso"
+                "cdrom_image": "alt-workstation-11.1-x86_64.iso"
             }
         },
         {
-            "name": "Workstation K 11.1",
+            "name": "Workstation K 11.2",
             "images": {
-                "cdrom_image": "alt-workstation-k-11.1-x86_64.iso"
+                "cdrom_image": "alt-workstation-k-11.2-x86_64.iso"
             }
         },
         {
@@ -114,9 +114,9 @@
             }
         },
         {
-            "name": "Simple Linux 11.0",
+            "name": "Simple Linux 11.1",
             "images": {
-                "cdrom_image": "slinux-11.0-x86_64.iso"
+                "cdrom_image": "slinux-11.1-x86_64.iso"
             }
         },
         {
